@@ -1,0 +1,39 @@
+
+a {
+outline:none;
+}
+
+.entry {
+	width: auto;
+	background: #ffffff;
+	-moz-border-radius:8px;
+	margin-top: 5px;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+	padding-top: 6px;
+	padding-right: 6px;
+	padding-bottom: 6px;
+	padding-left: 6px;
+	border: 1px solid #ffff;
+}
+
+span.link a {
+	font-size:100%;
+	color:#0BC7B4;
+	text-decoration:none;
+}
+
+a.vote_up, a.vote_down {
+	display:inline-block;
+	background-repeat:none;
+	background-position:left;
+	height:23px;
+	width:23px;
+	margin-left:4px;
+	text-indent:-900%;
+}
+
+a.vote_up {
+	background:url("../images/laik.png");
+}
